@@ -1,2 +1,5 @@
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_RMX3782.mk
+LOCAL_PATH := $(call my-dir)
+
+ifneq ($(filter RMX3782,$(TARGET_DEVICE)),)
+include $(call all-makefiles-under,$(LOCAL_PATH))
+endif

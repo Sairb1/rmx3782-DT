@@ -1,0 +1,7 @@
+
+# TWRP lunch combos for Realme RMX3782
+
+
+add_lunch_combo omni_RMX3782-user
+add_lunch_combo omni_RMX3782-userdebug
+add_lunch_combo omni_RMX3782-eng
